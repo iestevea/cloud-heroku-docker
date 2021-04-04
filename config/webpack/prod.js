@@ -26,6 +26,7 @@ module.exports = merge(base, {
   plugins: [
     new Dotenv({
       path: 'prod.env', // variables de entorno en prod
+      systemvars: true
     }),
   ],
 })
